@@ -27,4 +27,6 @@ def kesha_maker(str)
   new_str = []
   str.each do |word|
     new_str << word
+  end
+  new_str
 end
