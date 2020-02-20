@@ -39,4 +39,3 @@ def find_a(str)
   i += 1 
   end
 end
-end
