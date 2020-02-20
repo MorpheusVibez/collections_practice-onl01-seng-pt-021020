@@ -24,4 +24,4 @@ def reverse_array(int)
 end
 
 def kesha_maker(str)
-  str.collect
+  str.
