@@ -39,4 +39,7 @@ def find_a(str)
 end
 
 def sum_array(int)
-  
+  int.inject do |sum, num|
+    sum + num
+  end
+end
