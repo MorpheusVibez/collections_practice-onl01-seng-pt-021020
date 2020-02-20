@@ -37,3 +37,6 @@ def find_a(str)
     word.chr == "a"
   end
 end
+
+def sum_array(int)
+  
