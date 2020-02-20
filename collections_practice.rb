@@ -27,6 +27,6 @@ def kesha_maker(str)
   new_str = []
   str.each do |word|
     new_str << word.slice[2] = "$"
-  new_str
+      new_str
   end
 end
