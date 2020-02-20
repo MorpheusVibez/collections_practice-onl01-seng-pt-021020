@@ -24,6 +24,7 @@ def reverse_array(int)
 end
 
 def kesha_maker(str)
+  new_str = []
   str.each do |word|
-    word.push
+    new_str << word
 end
