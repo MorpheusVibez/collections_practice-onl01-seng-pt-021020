@@ -33,5 +33,5 @@ def kesha_maker(str)
 end
 
 def find_a(str)
-  str.find("a")
+  str.start_with?("a")
 end
