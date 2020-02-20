@@ -27,7 +27,7 @@ def kesha_maker(str)
   i = 0 
   
   while i < str.length do
-  yield(str[i])
+  
   i += 1
 end
 str
