@@ -33,5 +33,7 @@ def kesha_maker(str)
 end
 
 def find_a(str)
-  str.start_with?("a")
+  str.select do |word|
+    word.chr == "a"
+  end
 end
