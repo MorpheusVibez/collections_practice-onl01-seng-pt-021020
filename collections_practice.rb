@@ -51,4 +51,5 @@ def add_s(str)
     else 
       word + "s"
     end
+  end
 end
