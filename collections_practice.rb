@@ -33,9 +33,5 @@ def kesha_maker(str)
 end
 
 def find_a(str)
-  i = 0 
-  while i < str.length
-    return str[i] if yield(str[i])
-  i += 1 
-  end
+  str.find("a")
 end
