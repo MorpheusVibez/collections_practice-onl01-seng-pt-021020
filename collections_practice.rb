@@ -28,5 +28,5 @@ def kesha_maker(str)
   str.each do |word|
     new_str << word.length
   end
-  
+  new_str
 end
