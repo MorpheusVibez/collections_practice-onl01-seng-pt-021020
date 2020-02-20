@@ -31,3 +31,7 @@ def kesha_maker(str)
   end
   new_str
 end
+
+def find_a(str)
+  
+end
