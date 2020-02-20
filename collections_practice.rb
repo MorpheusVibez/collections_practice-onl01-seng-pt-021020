@@ -44,4 +44,12 @@ def sum_array(int)
   end
 end
 
-def add_s
+def add_s(str)
+  str.collect.with_index do |word, index|
+    if index == 1 
+      word 
+    else 
+      word + "s"
+    end
+  end
+end
